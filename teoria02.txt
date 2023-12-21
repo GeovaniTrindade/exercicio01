@@ -1,0 +1,26 @@
+1 - O que são componentes?
+r: É uma unidade reutilizável que combina HTML, CSS e TypeScript para formar uma parte da interface do usuário de uma aplicação.
+Está, geralmente, relacionado a algo visual, ou seja, uma tela ou parte
+dela. Nesse sentido, um componente possui código (Controller) que determina ou
+controla o comportamento da interação com o usuário (View ou Template).
+
+2 - Para que serve a biblioteca @angular/router?
+r: Biblioteca para mapeamento e desenvolvimento de navegação em rotas no angular.
+
+
+3 - O que faz a classe Routes?
+r: Arquivo de configuração e mapeamento das rotas do projeto.
+
+4 - O que faz a classe RouterModule?
+r: faz a navegação entre os componentes
+
+5 - Para que serve o arquivo app.routing.ts?
+r: arquivo onde é feito o mapeamento das rotas
+
+6 - Explique como funciona uma SPA – Single Page Application?
+r: aplicações web em que o usuário interage com uma única página. Esta página tem as informações de
+seu body dinamicamente reescritas para exibir informação atualizada.
+
+7 - Para que serve a diretiva [routerLink]?
+r: Classe do @angular/router utilizada para disparar rotas de navegação no projeto.
+

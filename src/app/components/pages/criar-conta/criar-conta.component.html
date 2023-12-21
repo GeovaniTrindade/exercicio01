@@ -6,9 +6,7 @@
           <hr />
           <form>
             <div class="mb-3">
-              <label for="inputNome" class="form-label"
-                >Entre com o seu nome:</label
-              >
+              <label for="inputNome" class="form-label">Entre com o seu nome:</label>
               <input
                 type="text"
                 class="form-control"
@@ -16,10 +14,9 @@
                 placeholder="Digite o nome aqui"
               />
             </div>
+            
             <div class="mb-3">
-              <label for="inputEmail" class="form-label"
-                >Entre com o seu email:</label
-              >
+              <label for="inputEmail" class="form-label">Entre com o seu email:</label>
               <input
                 type="email"
                 class="form-control"
@@ -27,31 +24,35 @@
                 placeholder="Digite o email aqui"
               />
             </div>
+
             <div class="mb-3">
-              <label for="inputPassword" class="form-label"
-                >Entre com a sua senha:</label
-              >
+                <label for="inputCpf" class="form-label">Entre com o seu nome:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputCpf"
+                  placeholder="Digite o cpf aqui"
+                />
+              </div>
+            <div class="mb-3">
+              <label for="inputPassword" class="form-label">Entre com a sua senha:</label>
               <input
                 type="password"
                 class="form-control"
                 id="inputPassword"
                 placeholder="Digite a senha aqui"
               />
-            </div>
-  
+            </div>  
   
             <div class="mb-3">
-              <label for="inputConfirmPassword" class="form-label"
-                >Confirme a sua senha:</label
-              >
+              <label for="inputConfirmPassword" class="form-label">Confirme a sua senha:</label>
               <input
                 type="password"
                 class="form-control"
                 id="inputConfirmPassword"
                 placeholder="Digite a senha aqui"
               />
-            </div>
-  
+            </div>  
   
             <div class="mb-2">
               <button type="submit" class="btn btn-dark w-100">
@@ -61,19 +62,12 @@
   
   
             <div class="mb-2">
-              <button type="button" class="btn btn-light w-100">
+              <button type="button" class="btn btn-dark w-100" [routerLink]="['/app/acessar-conta']">
                 Já possui conta? <strong>Acesse aqui!</strong>
               </button>
-            </div>
-  
-  
-          </form>
-  
-  
+            </div>  
+          </form>  
         </div>
-      </div>
-  
-  
+      </div>  
     </div>
   </div>
-  
