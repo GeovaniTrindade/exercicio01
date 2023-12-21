@@ -1,0 +1,38 @@
+1 - O que é NodeJS?
+r: ambiente de execução Javascript server-side.
+
+2 - Explique a função do Angular/CLI
+r: Gerar os arquivos e pastas necessários, instalará os pacotes a partir do npm e configurará automaticamente o roteamento em nosso projeto.
+
+3 - Para que servem os comandos:
+a. npm install
+r: auxilia na instalação e desinstalação de pacotes, gerenciamento da versões e gerenciamento de dependências necessárias para executar um projeto.
+
+b. ng new
+r: criar um novo projeto.
+
+c. ng generate component
+r: criar um novo diretório e os quatro arquivos necessários para um componente.
+
+d. ng s
+r: executar a aplicação.
+
+e. code 
+r: abrir o projeto na ide
+
+4 - Qual a finalidade do arquivo package.json?
+r: Arquivo de implantação, é um repositório central de configurações do projeto.
+
+5 - Qual a finalidade do arquivo angular.json?
+r: utilizado para realizar o processo de build da aplicação, contém informações sobre dependências, arquivos de entrada e saída, configurações de compilação.
+
+6 - Para que serve o arquivo app.module.ts?
+r: responsável por agrupar uma série de componentes de uma aplicação
+
+7 - O que são módulos e componentes?
+r: um módulo é um elemento de mais alto nível da arquitetura do Angular e é composto
+por outros elementos, como componentes e serviços.
+
+Um componente está, geralmente, relacionado a algo visual, ou seja, uma tela ou parte
+dela. Nesse sentido, um componente possui código (Controller) que determina ou
+controla o comportamento da interação com o usuário (View ou Template).
